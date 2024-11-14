@@ -5,14 +5,15 @@ The Fun Fact Generator app is an Android application that provides users with in
 ## Features
 
 - **Random Fun Facts**: Generates a random fun fact with each button press.
+- **View Previous Facts**: Allows users to view previously generated fun facts in a dialog box labeled "#PreviousFacts."
 - **User-Friendly Interface**: Minimalist and easy-to-navigate UI with a light theme.
-- **Copyright Information**: Displays developer details in the footer.
+- **Copyright Information**: Displays developer details in the footer for personalization.
 
 ## Screenshots
 
-| Main Screen            | Fact Generation Screen       |
-|------------------------|-----------------------------|
-| ![Main Screen](Screenshots/SnapShot.png) | ![Snapshot 1](Screenshots/SnapShot1.png) |
+| Fact Generation Screen/ Main Screen      |
+|------------------------------------------|
+| ![Snapshot 1](Screenshots/SnapShot1.png) |
 
 | Previous Facts Screen |
 |------------------------|

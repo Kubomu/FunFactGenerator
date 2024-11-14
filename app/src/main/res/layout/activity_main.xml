@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Fun Fact App"
+        android:textSize="30sp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="@font/roboto_bold"
+        android:textStyle="bold"
+        android:shadowColor="#66000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5" />
+
+    <!-- Fact TextView -->
+    <TextView
+        android:id="@+id/factTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Click the button to generate a fun fact!"
+        android:textSize="20sp"
+        android:textColor="@color/secondaryTextColor"
+        android:padding="16dp"
+        android:background="@drawable/textview_background"
+        android:elevation="6dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <!-- Generate Button -->
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/factTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Generate Fact"
+        android:background="@drawable/button_background"
+        android:textColor="@color/buttonTextColor"
+        android:padding="14dp"
+        android:textSize="18sp"
+        android:elevation="8dp"
+        android:fontFamily="@font/roboto_bold" />
+
+    <!-- Footer with Your Initials -->
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="© 2024 Developed by Kubomu Edwin"
+        android:textSize="12sp"
+        android:textColor="@color/secondaryTextColor"
+        android:fontFamily="@font/roboto_regular"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

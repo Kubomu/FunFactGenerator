@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fun Fact App</string>
+    <string name="fact_will_appear_here">Fact will appear here</string>
+    <string name="generate_fun_fact">Generate Fun Fact</string>
+</resources>

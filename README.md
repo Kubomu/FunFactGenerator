@@ -10,9 +10,16 @@ The Fun Fact Generator app is an Android application that provides users with in
 
 ## Screenshots
 
-| Main Screen |
-|-------------|
-| ![Main Screen](Screenshots/SnapShot.png) |
+| Main Screen            | Fact Generation Screen       |
+|------------------------|-----------------------------|
+| ![Main Screen](Screenshots/SnapShot.png) | ![Snapshot 1](Screenshots/SnapShot1.png) |
+
+| Previous Facts Screen |
+|------------------------|
+| ![Snapshot 2](Screenshots/SnapShot2.png) |
+
+
+
 
 
 ## Technologies Used

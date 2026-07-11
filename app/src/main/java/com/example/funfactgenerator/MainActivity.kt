@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         // Initialize Retrofit
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://uselessfacts.jsph.pl/") // Base URL of the API
+            .baseUrl("https://uselessfacts.jsph.pl/api/v2/facts/") // Base URL of the API (v2; v1 was deprecated)
             .addConverterFactory(GsonConverterFactory.create()) // To convert JSON to Kotlin object
             .build()
 

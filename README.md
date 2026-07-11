@@ -2,6 +2,12 @@
 
 The Fun Fact Generator app is an Android application that provides users with interesting and random fun facts at the click of a button. Developed in Kotlin using Android Studio, this app offers a simple and clean design, making it easy and enjoyable to learn something new!
 
+> This was my first Kotlin app, built in 2024 while I was learning Android development. I keep it here as a marker of where I started. It has since been given a small tune-up so it still runs today.
+
+## Download and try it
+
+You do not need Android Studio to try the app. Grab the installable APK from the [Releases page](https://github.com/Kubomu/FunFactGenerator/releases/latest), copy it to an Android phone, and open it to install (you may need to allow installing from unknown sources).
+
 ## Features
 
 - **Random Fun Facts**: Generates a random fun fact with each button press.
@@ -19,23 +25,21 @@ The Fun Fact Generator app is an Android application that provides users with in
 |------------------------|
 | ![Snapshot 2](Screenshots/SnapShot2.png) |
 
-
-
-
-
 ## Technologies Used
 
 - **Kotlin**: For the Android app development.
 - **Android Studio**: The primary IDE for building the app.
 - **XML**: Used for designing UI components.
-  
+- **Retrofit**: For calling the facts API and parsing the JSON response.
+- **API**: Facts come from the free [uselessfacts](https://uselessfacts.jsph.pl/) API (v2).
+
 ## Getting Started
 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Kubomu/FunFactGenerator.git
    ```
-   
+
 2. **Open in Android Studio**:
    - Open Android Studio.
    - Select "Open an existing project."
@@ -60,4 +64,3 @@ This project is licensed under the MIT License.
 Developed by Kubomu Edwin
 
 ---
-

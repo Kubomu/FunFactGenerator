@@ -4,9 +4,11 @@ The Fun Fact Generator app is an Android application that provides users with in
 
 > This was my first Kotlin app, built in 2024 while I was learning Android development. I keep it here as a marker of where I started. It has since been given a small tune-up so it still runs today.
 
-## Download and try it
+## Try it
 
-You do not need Android Studio to try the app. Grab the installable APK from the [Releases page](https://github.com/Kubomu/FunFactGenerator/releases/latest), copy it to an Android phone, and open it to install (you may need to allow installing from unknown sources).
+The most reliable way to run the current version is to build it from source (see [Getting Started](#getting-started) below). The code has been updated to point at the facts API's current endpoint.
+
+An installable APK from 2024 is also on the [Releases page](https://github.com/Kubomu/FunFactGenerator/releases). One honest note: the free facts API this app originally used was retired since then, so that older APK no longer loads facts. Building from the current source fixes that.
 
 ## Features
 

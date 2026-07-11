@@ -13,3 +13,11 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Build outputs should not be committed. The release APK is published on the
+# Releases page instead. See https://github.com/Kubomu/FunFactGenerator/releases
+/app/release/
+/app/build/
+
+# Android Studio / IntelliJ project files
+.idea/
